@@ -1,9 +1,12 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Menu.gd" type="Script" id=1]
 [ext_resource path="res://resources/sprites/placeholder.png" type="Texture" id=2]
 [ext_resource path="res://resources/sprites/buttons/buttonsstart.png" type="Texture" id=3]
 [ext_resource path="res://resources/sprites/buttons/buttonsoptions.png" type="Texture" id=4]
+[ext_resource path="res://resources/sprites/buttons/buttonspressed.png" type="Texture" id=5]
+[ext_resource path="res://resources/sprites/buttons/buttonsstartselected.png" type="Texture" id=6]
+[ext_resource path="res://resources/sprites/buttons/buttonsoptionsselect.png" type="Texture" id=7]
 
 [sub_resource type="Theme" id=1]
 
@@ -30,38 +33,42 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -25.0
-margin_top = -84.0
-margin_right = 23.0
-margin_bottom = -16.0
+margin_left = -57.0
+margin_top = -152.0
+margin_right = 55.0
 alignment = 1
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="StartButton" type="Button" parent="Menu"]
-margin_right = 48.0
-margin_bottom = 20.0
+[node name="StartButton" type="TextureButton" parent="Menu"]
+margin_right = 112.0
+margin_bottom = 48.0
 focus_neighbour_top = NodePath("../QuitButton")
-icon = ExtResource( 3 )
-flat = true
-expand_icon = true
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 6 )
+texture_focused = ExtResource( 6 )
 
-[node name="OptionsButton" type="Button" parent="Menu"]
-margin_top = 24.0
-margin_right = 48.0
-margin_bottom = 44.0
-icon = ExtResource( 4 )
-flat = true
-expand_icon = true
+[node name="OptionsButton" type="TextureButton" parent="Menu"]
+margin_top = 52.0
+margin_right = 112.0
+margin_bottom = 100.0
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 7 )
+texture_focused = ExtResource( 7 )
 
-[node name="QuitButton" type="Button" parent="Menu"]
-margin_top = 48.0
-margin_right = 48.0
-margin_bottom = 68.0
+[node name="QuitButton" type="TextureButton" parent="Menu"]
+margin_top = 104.0
+margin_right = 112.0
+margin_bottom = 152.0
 focus_neighbour_bottom = NodePath("../StartButton")
 theme = SubResource( 1 )
-text = "Quit"
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+texture_hover = ExtResource( 7 )
+texture_focused = ExtResource( 7 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 anchor_left = 0.5
