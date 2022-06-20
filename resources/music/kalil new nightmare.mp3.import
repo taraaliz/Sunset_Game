@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/kalil new nightmare.mp3-83dcee6ba552fe0d1821698d5e19c489.mp3str"
+
+[deps]
+
+source_file="res://resources/music/kalil new nightmare.mp3"
+dest_files=[ "res://.import/kalil new nightmare.mp3-83dcee6ba552fe0d1821698d5e19c489.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

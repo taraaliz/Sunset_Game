@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tori main menu.mp3-de45b5225dd51ef47a590784057986cc.mp3str"
+
+[deps]
+
+source_file="res://resources/music/tori main menu.mp3"
+dest_files=[ "res://.import/tori main menu.mp3-de45b5225dd51ef47a590784057986cc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

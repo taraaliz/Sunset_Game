@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sophia outside.mp3-259e07cbb62339ba24e8b3528955ff5a.mp3str"
+
+[deps]
+
+source_file="res://resources/music/sophia outside.mp3"
+dest_files=[ "res://.import/sophia outside.mp3-259e07cbb62339ba24e8b3528955ff5a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

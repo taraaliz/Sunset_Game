@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/rumors.mp3-0b37833affb9d5ec10bf77c0a0a62f2e.mp3str"
+
+[deps]
+
+source_file="res://resources/music/rumors.mp3"
+dest_files=[ "res://.import/rumors.mp3-0b37833affb9d5ec10bf77c0a0a62f2e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

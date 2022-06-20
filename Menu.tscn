@@ -1,7 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Menu.gd" type="Script" id=1]
 [ext_resource path="res://resources/sprites/placeholder.png" type="Texture" id=2]
+[ext_resource path="res://resources/sprites/buttons/buttonsstart.png" type="Texture" id=3]
+[ext_resource path="res://resources/sprites/buttons/buttonsoptions.png" type="Texture" id=4]
 
 [sub_resource type="Theme" id=1]
 
@@ -28,9 +30,9 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -42.0
+margin_left = -25.0
 margin_top = -84.0
-margin_right = 42.0
+margin_right = 23.0
 margin_bottom = -16.0
 alignment = 1
 __meta__ = {
@@ -38,20 +40,24 @@ __meta__ = {
 }
 
 [node name="StartButton" type="Button" parent="Menu"]
-margin_right = 84.0
+margin_right = 48.0
 margin_bottom = 20.0
 focus_neighbour_top = NodePath("../QuitButton")
-text = "Start"
+icon = ExtResource( 3 )
+flat = true
+expand_icon = true
 
 [node name="OptionsButton" type="Button" parent="Menu"]
 margin_top = 24.0
-margin_right = 84.0
+margin_right = 48.0
 margin_bottom = 44.0
-text = "Options"
+icon = ExtResource( 4 )
+flat = true
+expand_icon = true
 
 [node name="QuitButton" type="Button" parent="Menu"]
 margin_top = 48.0
-margin_right = 84.0
+margin_right = 48.0
 margin_bottom = 68.0
 focus_neighbour_bottom = NodePath("../StartButton")
 theme = SubResource( 1 )

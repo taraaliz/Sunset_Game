@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/torigametheme.mp3-cc83bbe95ccc53d445d43f2c6c20c861.mp3str"
+
+[deps]
+
+source_file="res://resources/music/torigametheme.mp3"
+dest_files=[ "res://.import/torigametheme.mp3-cc83bbe95ccc53d445d43f2c6c20c861.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
