@@ -8,7 +8,7 @@ extends Control
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	$VBoxContainer/StartButton.grab_focus()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -21,8 +21,9 @@ func _on_StartButton_pressed():
 
 
 func _on_OptionsButton_pressed():
-	pass # Replace with function body.
+	var options = load("").instance()
+	get_tree().curent_scene.add_child(options)
 
 
 func _on_QuitButton_pressed():
-	pass # Replace with function body.
+	get_tree().quit()
