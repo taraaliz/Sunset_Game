@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="UISlider" type="HBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Label" type="Label" parent="."]
+margin_bottom = 14.0
+
+[node name="HSlider" type="HSlider" parent="."]
+margin_left = 4.0
+margin_right = 20.0
+margin_bottom = 16.0

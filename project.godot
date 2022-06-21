@@ -14,12 +14,16 @@ config/name="Sunset-Game"
 run/main_scene="res://resources/menu/alt_title_screen.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GlobalSettings="*res://resources/menu/global_settings.gd"
+
 [display]
 
 window/size/width=240
-window/size/height=136
-window/size/test_width=1280
-window/size/test_height=720
+window/size/height=135
+window/size/test_width=1920
+window/size/test_height=1080
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
