@@ -22,7 +22,7 @@ func _on_StartButton_pressed():
 
 func _on_OptionsButton_pressed():
 	var options = load("").instance()
-	get_tree().curent_scene.add_child(options)
+	get_tree().current_scene.add_child(options)
 
 
 func _on_QuitButton_pressed():

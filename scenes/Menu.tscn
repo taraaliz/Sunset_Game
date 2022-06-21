@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://resources/menu/buttons/selected_button.tres" type="StyleBox" id=1]
 [ext_resource path="res://resources/menu/font/VT323/VT323-Regular.ttf" type="DynamicFontData" id=2]
@@ -9,6 +9,8 @@
 [ext_resource path="res://resources/menu/buttons/buttonsoptions.png" type="Texture" id=7]
 [ext_resource path="res://resources/menu/buttons/buttonspressed.png" type="Texture" id=8]
 [ext_resource path="res://resources/menu/buttons/buttonsoptionsselect.png" type="Texture" id=9]
+[ext_resource path="res://resources/menu/buttons/buttons3.png" type="Texture" id=10]
+[ext_resource path="res://resources/menu/buttons/buttons4.png" type="Texture" id=11]
 
 [sub_resource type="Theme" id=1]
 
@@ -54,14 +56,13 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -63.0
-margin_top = -184.0
-margin_right = 49.0
-margin_bottom = -11.0
+margin_left = -37.0
+margin_top = -131.0
+margin_right = 75.0
+margin_bottom = 18.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
 alignment = 1
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="StartButton" type="TextureButton" parent="Menu"]
 margin_right = 112.0
@@ -76,26 +77,32 @@ texture_focused = ExtResource( 6 )
 margin_top = 52.0
 margin_right = 112.0
 margin_bottom = 100.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
 texture_normal = ExtResource( 7 )
 texture_pressed = ExtResource( 8 )
 texture_hover = ExtResource( 9 )
 texture_focused = ExtResource( 9 )
+stretch_mode = 2
 
 [node name="QuitButton" type="TextureButton" parent="Menu"]
 margin_top = 104.0
-margin_right = 112.0
-margin_bottom = 152.0
+margin_right = 56.0
+margin_bottom = 128.0
 focus_neighbour_bottom = NodePath("../StartButton")
+size_flags_horizontal = 0
+size_flags_vertical = 0
 theme = SubResource( 1 )
-texture_normal = ExtResource( 7 )
+texture_normal = ExtResource( 10 )
 texture_pressed = ExtResource( 8 )
-texture_hover = ExtResource( 9 )
-texture_focused = ExtResource( 9 )
+texture_hover = ExtResource( 11 )
+texture_focused = ExtResource( 11 )
+stretch_mode = 2
 
-[node name="Button" type="Button" parent="Menu"]
-margin_top = 156.0
+[node name="StartButton2" type="Button" parent="Menu"]
+margin_top = 132.0
 margin_right = 112.0
-margin_bottom = 173.0
+margin_bottom = 149.0
 theme = SubResource( 5 )
 custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
 custom_styles/normal = SubResource( 6 )
