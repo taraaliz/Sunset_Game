@@ -1,19 +1,19 @@
 [gd_scene load_steps=16 format=2]
 
-[ext_resource path="res://Menu.gd" type="Script" id=1]
-[ext_resource path="res://resources/sprites/placeholder.png" type="Texture" id=2]
-[ext_resource path="res://resources/sprites/buttons/buttonsstart.png" type="Texture" id=3]
-[ext_resource path="res://resources/sprites/buttons/buttonsoptions.png" type="Texture" id=4]
-[ext_resource path="res://resources/sprites/buttons/buttonspressed.png" type="Texture" id=5]
-[ext_resource path="res://resources/sprites/buttons/buttonsstartselected.png" type="Texture" id=6]
-[ext_resource path="res://resources/sprites/buttons/buttonsoptionsselect.png" type="Texture" id=7]
-[ext_resource path="res://resources/menu/button/selected_button.tres" type="StyleBox" id=8]
-[ext_resource path="res://resources/menu/font/VT323/VT323-Regular.ttf" type="DynamicFontData" id=9]
+[ext_resource path="res://resources/menu/buttons/selected_button.tres" type="StyleBox" id=1]
+[ext_resource path="res://resources/menu/font/VT323/VT323-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://scenes/Menu.gd" type="Script" id=3]
+[ext_resource path="res://resources/sprites/placeholder.png" type="Texture" id=4]
+[ext_resource path="res://resources/menu/buttons/buttonsstart.png" type="Texture" id=5]
+[ext_resource path="res://resources/menu/buttons/buttonsstartselected.png" type="Texture" id=6]
+[ext_resource path="res://resources/menu/buttons/buttonsoptions.png" type="Texture" id=7]
+[ext_resource path="res://resources/menu/buttons/buttonspressed.png" type="Texture" id=8]
+[ext_resource path="res://resources/menu/buttons/buttonsoptionsselect.png" type="Texture" id=9]
 
 [sub_resource type="Theme" id=1]
 
 [sub_resource type="DynamicFont" id=2]
-font_data = ExtResource( 9 )
+font_data = ExtResource( 2 )
 
 [sub_resource type="StyleBoxFlat" id=3]
 bg_color = Color( 0, 0, 0, 1 )
@@ -23,8 +23,8 @@ bg_color = Color( 1, 1, 1, 1 )
 
 [sub_resource type="Theme" id=5]
 Button/fonts/font = SubResource( 2 )
-Button/styles/focus = ExtResource( 8 )
-Button/styles/hover = ExtResource( 8 )
+Button/styles/focus = ExtResource( 1 )
+Button/styles/hover = ExtResource( 1 )
 Button/styles/normal = SubResource( 3 )
 Button/styles/pressed = SubResource( 4 )
 
@@ -34,7 +34,7 @@ bg_color = Color( 0, 0, 0, 1 )
 [node name="TitleScreen" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-script = ExtResource( 1 )
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_lock_": true
 }
@@ -46,7 +46,7 @@ margin_left = 16.0
 margin_top = 4.0
 margin_right = -16.0
 margin_bottom = 42.0
-texture = ExtResource( 2 )
+texture = ExtResource( 4 )
 expand = true
 
 [node name="Menu" type="VBoxContainer" parent="."]
@@ -67,8 +67,8 @@ __meta__ = {
 margin_right = 112.0
 margin_bottom = 48.0
 focus_neighbour_top = NodePath("../QuitButton")
-texture_normal = ExtResource( 3 )
-texture_pressed = ExtResource( 5 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 8 )
 texture_hover = ExtResource( 6 )
 texture_focused = ExtResource( 6 )
 
@@ -76,10 +76,10 @@ texture_focused = ExtResource( 6 )
 margin_top = 52.0
 margin_right = 112.0
 margin_bottom = 100.0
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 7 )
-texture_focused = ExtResource( 7 )
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 9 )
+texture_focused = ExtResource( 9 )
 
 [node name="QuitButton" type="TextureButton" parent="Menu"]
 margin_top = 104.0
@@ -87,10 +87,10 @@ margin_right = 112.0
 margin_bottom = 152.0
 focus_neighbour_bottom = NodePath("../StartButton")
 theme = SubResource( 1 )
-texture_normal = ExtResource( 4 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 7 )
-texture_focused = ExtResource( 7 )
+texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 9 )
+texture_focused = ExtResource( 9 )
 
 [node name="Button" type="Button" parent="Menu"]
 margin_top = 156.0

@@ -2,19 +2,19 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/portraitplaceholderday.png-4b0e96aeffb94d998ba358d28696da6f.stex"
+path="res://.import/tori_rpg-Sheet.png-baf4dd1af0d25db5fe257e60ce56b39d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/sprites/dialogue/portraitplaceholderday.png"
-dest_files=[ "res://.import/portraitplaceholderday.png-4b0e96aeffb94d998ba358d28696da6f.stex" ]
+source_file="res://unused/tori_rpg-Sheet.png"
+dest_files=[ "res://.import/tori_rpg-Sheet.png-baf4dd1af0d25db5fe257e60ce56b39d.stex" ]
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0

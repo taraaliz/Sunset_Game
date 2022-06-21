@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/portraitplaceholdernight.png-72e8b8370cfab37f2dffc8a149b7d165.stex"
+path="res://.import/buttonsstart.png-1ec028e968a1dc8bc38a6b6a39929b0a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/sprites/dialogue/portraitplaceholdernight.png"
-dest_files=[ "res://.import/portraitplaceholdernight.png-72e8b8370cfab37f2dffc8a149b7d165.stex" ]
+source_file="res://resources/menu/buttons/buttonsstart.png"
+dest_files=[ "res://.import/buttonsstart.png-1ec028e968a1dc8bc38a6b6a39929b0a.stex" ]
 
 [params]
 

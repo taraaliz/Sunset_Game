@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/buttonsstartselected.png-0b3cb3cab7ca707a202d7efd387429f8.stex"
+path="res://.import/portraitplaceholderday.png-aeccd2c66eb6c45d42ac4da92bb1a40b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/sprites/buttons/buttonsstartselected.png"
-dest_files=[ "res://.import/buttonsstartselected.png-0b3cb3cab7ca707a202d7efd387429f8.stex" ]
+source_file="res://resources/UI/dialogue/portraitplaceholderday.png"
+dest_files=[ "res://.import/portraitplaceholderday.png-aeccd2c66eb6c45d42ac4da92bb1a40b.stex" ]
 
 [params]
 

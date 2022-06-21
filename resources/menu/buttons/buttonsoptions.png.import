@@ -2,19 +2,19 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tori_rpg-Sheet.png-e379f4889d89f0fdcd97c48848052cc6.stex"
+path="res://.import/buttonsoptions.png-c3c10c3a3a1e42948a4c8c4d2f778946.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tori_rpg-Sheet.png"
-dest_files=[ "res://.import/tori_rpg-Sheet.png-e379f4889d89f0fdcd97c48848052cc6.stex" ]
+source_file="res://resources/menu/buttons/buttonsoptions.png"
+dest_files=[ "res://.import/buttonsoptions.png-c3c10c3a3a1e42948a4c8c4d2f778946.stex" ]
 
 [params]
 
-compress/mode=3
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0

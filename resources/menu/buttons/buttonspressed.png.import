@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dialogueboxday.png-ee53ba6daef0e63e956cb440de4f99b1.stex"
+path="res://.import/buttonspressed.png-e09fd458b0c1d8ffbdc44efd06c339cb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/sprites/dialogue/dialogueboxday.png"
-dest_files=[ "res://.import/dialogueboxday.png-ee53ba6daef0e63e956cb440de4f99b1.stex" ]
+source_file="res://resources/menu/buttons/buttonspressed.png"
+dest_files=[ "res://.import/buttonspressed.png-e09fd458b0c1d8ffbdc44efd06c339cb.stex" ]
 
 [params]
 
