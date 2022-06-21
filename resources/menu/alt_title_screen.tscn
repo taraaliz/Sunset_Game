@@ -1,25 +1,16 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://resources/menu/menu_theme_btns.tres" type="Theme" id=1]
-[ext_resource path="res://resources/menu/menu_gradient.tres" type="Gradient" id=2]
+[ext_resource path="res://resources/menu/Background.tscn" type="PackedScene" id=2]
 [ext_resource path="res://resources/menu/alt_title_screen.gd" type="Script" id=3]
-
-[sub_resource type="GradientTexture" id=2]
-gradient = ExtResource( 2 )
-width = 240
+[ext_resource path="res://resources/menu/buttons/OptionsBtn.tscn" type="PackedScene" id=4]
 
 [node name="TitleScreen" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 3 )
 
-[node name="Background" type="TextureRect" parent="."]
-margin_top = 136.0
-margin_right = 240.0
-margin_bottom = 376.0
-rect_rotation = -90.0
-texture = SubResource( 2 )
-expand = true
+[node name="Background" parent="." instance=ExtResource( 2 )]
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 anchor_left = 0.5
@@ -56,12 +47,7 @@ size_flags_horizontal = 4
 theme = ExtResource( 1 )
 text = "Start"
 
-[node name="OptionsBtn" type="Button" parent="VBoxContainer"]
-margin_top = 21.0
-margin_right = 50.0
-margin_bottom = 38.0
-text = "Options"
-expand_icon = true
+[node name="OptionsBtn" parent="VBoxContainer" instance=ExtResource( 4 )]
 
 [node name="QuitBtn" type="Button" parent="VBoxContainer"]
 margin_top = 42.0

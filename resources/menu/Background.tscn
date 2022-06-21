@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://resources/menu/menu_gradient.tres" type="Gradient" id=1]
+
+[sub_resource type="GradientTexture" id=2]
+gradient = ExtResource( 1 )
+width = 240
+
+[node name="Background" type="TextureRect"]
+margin_top = 136.0
+margin_right = 240.0
+margin_bottom = 376.0
+rect_rotation = -90.0
+texture = SubResource( 2 )
+expand = true

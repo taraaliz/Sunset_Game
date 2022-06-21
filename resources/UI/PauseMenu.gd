@@ -18,3 +18,9 @@ func _on_ResumeBtn_pressed():
 
 func _on_QuitBtn_pressed():
 	get_tree().quit()
+
+# adds options scene behind pause menu
+# todo: figure out how to add it on top of pause menu
+func _on_OptionsBtn_pressed():
+	var options = load("res://resources/menu/Options.tscn").instance()
+	get_tree().current_scene.add_child(options)

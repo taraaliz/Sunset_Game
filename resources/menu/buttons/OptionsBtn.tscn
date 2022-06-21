@@ -1,0 +1,8 @@
+[gd_scene format=2]
+
+[node name="OptionsBtn" type="Button"]
+margin_top = 21.0
+margin_right = 50.0
+margin_bottom = 38.0
+text = "Options"
+expand_icon = true

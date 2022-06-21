@@ -15,7 +15,10 @@ margin_bottom = 27.0
 margin_left = 4.0
 margin_right = 88.0
 margin_bottom = 40.0
+rect_min_size = Vector2( 70, 0 )
+size_flags_horizontal = 8
 text = "640x360"
+align = 1
 items = [ "640x360", null, false, 0, null, "1280x820", null, false, 1, null, "1920x1080", null, false, 2, null, "2560x1440", null, false, 3, null ]
 selected = 0
 
