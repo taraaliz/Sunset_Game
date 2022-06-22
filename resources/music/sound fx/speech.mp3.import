@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/speech.mp3-c32efd61e7aa895810faa0dcb7cdb659.mp3str"
+
+[deps]
+
+source_file="res://resources/music/sound fx/speech.mp3"
+dest_files=[ "res://.import/speech.mp3-c32efd61e7aa895810faa0dcb7cdb659.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
