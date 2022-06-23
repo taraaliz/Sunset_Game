@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/portraitplaceholderday.png-aeccd2c66eb6c45d42ac4da92bb1a40b.stex"
+path="res://.import/dialogue box10.png-671f5362e40257214ec7ca6b80014e95.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/UI/dialogue/portraitplaceholderday.png"
-dest_files=[ "res://.import/portraitplaceholderday.png-aeccd2c66eb6c45d42ac4da92bb1a40b.stex" ]
+source_file="res://resources/UI/dialogue/dialogue box10.png"
+dest_files=[ "res://.import/dialogue box10.png-671f5362e40257214ec7ca6b80014e95.stex" ]
 
 [params]
 

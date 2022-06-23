@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/buttonsstart.png-1ec028e968a1dc8bc38a6b6a39929b0a.stex"
+path="res://.import/dialogue box2.png-732f9946d629f63e718c7691086d1c80.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/menu/buttons/buttonsstart.png"
-dest_files=[ "res://.import/buttonsstart.png-1ec028e968a1dc8bc38a6b6a39929b0a.stex" ]
+source_file="res://resources/UI/dialogue/dialogue box2.png"
+dest_files=[ "res://.import/dialogue box2.png-732f9946d629f63e718c7691086d1c80.stex" ]
 
 [params]
 
